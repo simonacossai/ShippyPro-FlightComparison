@@ -4,7 +4,7 @@ export async function getFlights(departure, arrival) {
             {
                 method: "GET",
                 headers: new Headers({
-                    "Authorization": "Bearer 1|MN9ruQV0MFEsgOzMo8crw8gB575rsTe2H5U1y2Lj",
+                    "Authorization": `Bearer ${process.env.REACT_APP_BEARER_TOKEN}`,
                 }),
             })
         if (response.ok) {
@@ -43,7 +43,7 @@ export async function getAgency() {
             {
                 method: "GET",
                 headers: new Headers({
-                    "Authorization": "Bearer 1|MN9ruQV0MFEsgOzMo8crw8gB575rsTe2H5U1y2Lj",
+                    "Authorization": `Bearer ${process.env.REACT_APP_BEARER_TOKEN}`,
                 }),
             })
         if (response.ok) {
@@ -63,7 +63,7 @@ export async function getAirports() {
             {
                 method: "GET",
                 headers: new Headers({
-                    "Authorization": "Bearer 1|MN9ruQV0MFEsgOzMo8crw8gB575rsTe2H5U1y2Lj",
+                    "Authorization": `Bearer ${process.env.REACT_APP_BEARER_TOKEN}`,
                 }),
             })
         if (response.ok) {
