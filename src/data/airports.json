@@ -1,0 +1,74 @@
+[
+    {
+        "value":"PSA",
+        "airport": "Pisa San Giusto"
+    },
+    {
+        "value": "BLQ",
+        "airport": "Bologna"
+    },
+    {
+        "value": "BGY",
+        "airport": "Bergamo-Orio"
+    },
+    {
+        "value": "MXP",
+        "airport": "Milano-Malpensa"
+    },
+    {
+        "value": "TRN",
+        "airport": "Torino-Caselle"
+    },
+    {
+        "value": "VCE",
+        "airport": "Venezia"
+    },
+    {
+        "value": "FCO",
+        "airport": "Roma Fiumicino"
+    },
+    {
+        "value": "PSR",
+        "airport": "Abruzzo"
+    },
+    {
+        "value": "NAP",
+        "airport": "Napoli-Capodichino"
+    },
+    {
+        "value": "BRI",
+        "airport": "Bari"
+    },
+    {
+        "value": "BDS",
+        "airport": "Salento"
+    },
+    {
+        "value": "SUF",
+        "airport": "Lamezia Terme"
+    },
+    {
+        "value": "CTA",
+        "airport": "Catania"
+    },
+    {
+        "value": "PMO",
+        "airport": "Palermo"
+    },
+    {
+        "value": "NRT",
+        "airport": "Narita"
+    },
+    {
+        "value": "KLX",
+        "airport": "Kalamata"
+    },
+    {
+        "value": "ALA",
+        "airport": "Almaty"
+    },
+    {
+        "value": "PEK",
+        "airport": "Pechino"
+    }
+]

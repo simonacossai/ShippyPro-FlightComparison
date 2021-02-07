@@ -1,0 +1,47 @@
+.home-main-container{
+    background-image:url(../../assets/plane.jpg);
+    background-size: cover;
+}
+
+
+.homepage-red-line{
+    width: 95px;
+    height:7px;
+    background-color: #FF0004;
+}
+.homepage-title{
+    font-size:55px;
+    color: #0B0B0B;
+}
+.homepage-subtitle{
+    font-weight: 400;
+    color:#0B0B0B;
+}
+.error-alert{
+    position: absolute!important;
+    bottom:50px!important;
+}
+.alert-filter-row{
+    position: relative!important;
+}
+@media(max-width:560px){
+    .homepage-red-line{
+        width: 65px;
+        height:5px;
+        background-color: #FF0004;
+    }
+    .homepage-title{
+        font-size:50px;
+        color: #0B0B0B;
+    }
+    .homepage-subtitle{
+        font-weight: 400;
+        color:#0B0B0B;
+        font-size:25px;
+    }
+    .error-alert{
+        position: absolute!important;
+        bottom:90px!important;
+        width:90%;
+    }
+}

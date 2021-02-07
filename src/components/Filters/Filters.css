@@ -1,0 +1,38 @@
+.filter-div{
+    position: absolute;
+    width: 100%;
+    background-color: #EFEEF4;
+    box-shadow: 2px 2px 16px rgba(0,0,0,0.3);
+    z-index:3;
+    border-radius: 4px;
+}
+.filters-select-input{
+    padding:5px;
+    border-radius: 4px;
+    background-color: #EFEEF4;
+    cursor: pointer;
+    border: 1.3px solid #0B0B0B;
+    font-weight: 400;
+}
+
+.airplane-icon{
+    font-size: 55px;
+    padding:0;
+    color: #FF0004;
+}
+
+@media(max-width:772px){
+    .filter-div{
+        position: absolute;
+        width: 90%;
+        background-color: #EFEEF4;
+        box-shadow: 2px 2px 16px rgba(0,0,0,0.3);
+        z-index:3;
+        padding: 0 10px;
+        border-radius: 4px;
+    }
+    .filter-column{
+        display:flex;
+        flex-direction:column;
+    }
+}
